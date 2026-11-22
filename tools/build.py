@@ -4,8 +4,8 @@ import os, json, re, io, base64, datetime
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."); URL = "github.com/XYan-Alex/quant-paper-replication"
 P = json.load(open(os.path.join(ROOT, "papers.json"), encoding="utf-8")); N = len(P)
 # ---------- README ----------
-tb = "| # | 论文 | 方向 | 复现结论 |\n|---|---|---|---|\n" + "\n".join(f"| [{p['id']}]({p['dir']}) | {p['title']}（{p['source']}） | {p['topic']} | {p['verdict']} |" for p in P)
-tb += "\n| [附](overfitting_check) | PBO、DSR 过拟合检验 | — | 方法与结果见文件夹内说明 |"
+tb = "| # | 论文 | 来源 | 方向 |\n|---|---|---|---|\n" + "\n".join(f"| [{p['id']}]({p['dir']}) | {p['title']} | {p['source']} | {p['topic']} |" for p in P)
+tb += "\n| [附](overfitting_check) | PBO、DSR 过拟合检验 | — | 回测稳健性检验 |"
 tree = "\n".join(f"{p['dir'] + '/':25s}{p['title']}" for p in P)
 f = os.path.join(ROOT, "README.md"); s = open(f, encoding="utf-8").read()
 s = re.sub(r"(<!-- PAPERS:START -->).*?(<!-- PAPERS:END -->)", lambda m: f"{m.group(1)}\n{tb}\n{m.group(2)}", s, flags=re.S)
