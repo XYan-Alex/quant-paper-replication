@@ -36,7 +36,7 @@ code{{font-family:"DejaVu Sans Mono",monospace;font-size:9pt;background:#EFE4D3;
 pre{{font-family:"DejaVu Sans Mono",monospace;font-size:9pt;background:#1A1412;color:#F3E6D3;padding:3.5mm 4mm;border-radius:2mm;margin:2mm 0;line-height:1.6}}
 table{{width:100%;border-collapse:collapse;font-size:9.8pt}} thead{{display:table-header-group}} th{{text-align:left;font-size:9pt;color:#A88B74;border-bottom:1pt solid #C8643B;padding:1.5mm 2mm}}
 tr{{page-break-inside:avoid}} td{{padding:1.9mm 2mm;border-bottom:.4pt solid #E2D5C2;vertical-align:top;line-height:1.45}} td.n{{color:#C8643B;font-weight:900;width:9mm}} td.p{{font-weight:700;width:58mm}} td.r{{color:#5A4636;width:42mm}}
-.note{{font-size:9.5pt;color:#8a7868;margin-top:4mm;line-height:1.65}} .end{{font-size:8.6pt;color:#8a7868;border-top:.5pt solid #D8C9B4;padding-top:3mm;margin-top:8mm;line-height:1.6}}
+.note{{font-size:9.5pt;color:#8a7868;margin-top:4mm;line-height:1.65}} .end{{font-size:8.6pt;color:#8a7868;border-top:.5pt solid #D8C9B4;padding-top:2mm;margin-top:3mm;line-height:1.5}}
 </style></head><body>
 <div class="c1"><div class="tag">量化舵 · 开源仓库</div>
 <h1>量化论文<br><span>从数据到代码</span><br>完整复现</h1>
@@ -52,7 +52,7 @@ tr{{page-break-inside:avoid}} td{{padding:1.9mm 2mm;border-bottom:.4pt solid #E2
 cd quant-paper-replication
 pip install -r requirements.txt</pre>
 <span>数据不在仓库里（体积大、有版权），下载方法写在 <code>data/README.md</code>。全部代码在普通电脑的 CPU 上就能跑。</span></div></div>
-<h2 style="margin-top:8mm">目前<i>有什么</i></h2>
+<h2 style="margin-top:5mm">目前<i>有什么</i></h2>
 <table><thead><tr><th>#</th><th>论文</th><th>来源</th><th>方向</th></tr></thead><tbody>{tr}</tbody></table>
 <div class="note">另有一份过拟合检验（PBO、DSR），在 <code>overfitting_check</code> 文件夹。以上为截至 {day} 的清单；之后新增的论文按编号顺延，以仓库首页的一览表为准。</div>
 <div class="end">发现问题可以在仓库的 Issues 里留言。抖音 / B 站：量化舵 · 量化方法科普，不构成任何投资建议。</div></div>
