@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+bottleneck
+pyarrow
+torch
+lightgbm
+akshare
+requests
+quadprog
+gymnasium
+stable-baselines3

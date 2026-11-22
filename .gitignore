@@ -1,0 +1,9 @@
+data/*
+!data/README.md
+__pycache__/
+*.pyc
+*.pt
+*.npy
+*.npz
+*.log
+.DS_Store
