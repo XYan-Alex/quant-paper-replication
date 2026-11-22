@@ -8,7 +8,7 @@
 | 文件 | 作用 |
 |---|---|
 | `stats.py` | PBO、DSR 的实现 |
-| `dmfm_of.py` / `ag_of.py` | 重跑每个试过的方案，导出月度超额收益（存到 `results/09_overfitting_check/`） |
+| `dmfm_of.py` / `ag_of.py` | 重跑每个试过的方案，导出月度超额收益（存到 `results/overfitting_check/`） |
 | `analyze.py` | 出结果 |
 
 ## 结果

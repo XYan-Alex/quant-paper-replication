@@ -55,4 +55,4 @@ python3 pool_bt.py rnd                                          # 纯算法
 - 搜索出来的公式经常偏离原想法，多数最后落在低波动、量价相关这几类已知规律上。
 - 论文里的高频比赛成绩和大赛排名无法复现；“想法—公式一致性打分”没做。
 - `pool_bt.py rnd` 重新生成的纯算法池，与当时存档的分数相关系数为 0.995（筛选细节略有出入）；另外三个池完全一致。
-- 过拟合检验见 [`09_overfitting_check`](../09_overfitting_check)。
+- 过拟合检验见 [`overfitting_check`](../overfitting_check)。

@@ -1,5 +1,5 @@
 import os
-HERE = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(HERE, "..", "results", "09_overfitting_check"); os.makedirs(OUT, exist_ok=True)
+HERE = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(HERE, "..", "results", "overfitting_check"); os.makedirs(OUT, exist_ok=True)
 import os, sys, numpy as np, pandas as pd; sys.path.insert(0,HERE); from stats import *
 
 def rep(name, f, pick, sel, hold=None, S=16):

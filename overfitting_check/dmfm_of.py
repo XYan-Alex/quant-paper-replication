@@ -1,5 +1,5 @@
 import os
-HERE = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(HERE, "..", "results", "09_overfitting_check"); os.makedirs(OUT, exist_ok=True)
+HERE = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(HERE, "..", "results", "overfitting_check"); os.makedirs(OUT, exist_ok=True)
 DATA = os.environ.get("QPR_DATA", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data"))
 import sys, os, json, numpy as np, pandas as pd
 sys.path.insert(0,os.path.join(HERE,'..','01_dmfm')); sys.path.insert(0,HERE)

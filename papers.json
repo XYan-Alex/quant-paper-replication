@@ -1,0 +1,10 @@
+[
+ {"id": "01", "dir": "01_dmfm", "title": "Deep Multi-Factor Model", "source": "arXiv:2210.12462", "topic": "深度学习多因子选股", "verdict": "按论文结构没达到论文水平（中证1000 每年跑赢 7.4% 对论文 16.4%），也没跑赢 63 个因子直接等权", "short": "按论文结构没达到论文水平，也没跑赢 63 个因子等权"},
+ {"id": "02", "dir": "02_alpha_gpt", "title": "Alpha-GPT", "source": "arXiv:2308.00016", "topic": "大模型 + 遗传搜索挖因子", "verdict": "“搜索把 IC 提高两到三倍”复现出来了，样本外成立；组合超额大部分来自单独一个月", "short": "搜索把 IC 提高两到三倍，样本外成立"},
+ {"id": "03", "dir": "03_quanta_alpha", "title": "QuantaAlpha", "source": "arXiv:2602.07085", "topic": "因子进化框架（精简版）", "verdict": "“变异”这一步的提升复现出来了；IC 绝对值远低于论文", "short": "“变异”一步的提升复现出来了"},
+ {"id": "04", "dir": "04_etf_rotation", "title": "ETF 行业轮动", "source": "汉斯《金融》2026", "topic": "动量 × 风险优化", "verdict": "和原文对不上；论文区间之后回撤 −48%", "short": "和原文对不上；之后回撤 −48%"},
+ {"id": "05", "dir": "05_smart_tangency", "title": "Smart Tangency Portfolio", "source": "IJFS 2025", "topic": "强化学习选调仓时点", "verdict": "数字接近论文，但和“随机选”的对照没有差别", "short": "数字接近论文，但和随机对照没有差别"},
+ {"id": "06", "dir": "06_last_hour_momentum", "title": "Last hour momentum", "source": "CFRI 2021", "topic": "尾盘半小时动量", "verdict": "最近一年的数据不支持（系数不显著，样本外 R² 为负）", "short": "最近一年的数据不支持"},
+ {"id": "07", "dir": "07_neural_shrinkage", "title": "Neural Shrinkage", "source": "arXiv:2608.30446", "topic": "神经网络估计协方差", "verdict": "方向复现出来了（组合波动最低），幅度 3%—6%，论文是 20%", "short": "方向复现出来了，幅度比论文小"},
+ {"id": "08", "dir": "08_sharpe_driven", "title": "Sharpe-Driven Stock Selection", "source": "arXiv:2511.13251", "topic": "滚动夏普选股", "verdict": "没复现出来（年化 −0.4% 对论文 25%）", "short": "没复现出来"}
+]
